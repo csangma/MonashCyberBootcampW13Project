@@ -39,5 +39,7 @@ Address space 10.0.0.0/16 and 10.1.0.0/16 (two VNets were peered, for simplicity
 | Web VM 2      | Not Exposed   | From Jumpbox Container  |
 | Jumpbox       | By ssh        | N/A                     |
 
+## Description of Kibana Investigation
 
+Our ELK stack contains Kibana which is an open-source analytics and visualization platform. As part of this course, we utilized Kibana to interact with and visualize data stored in Elasticsearch indices. Using the front-end gui from my web browser, I was able to access the Kibana services hosted on the ELKVM. I utilized the platform to identify  connections and web request patterns across country, time, OS type. I performed advanced data analysis and visualizations utilizing charts, tables and maps to identify anomalous activity source, location, trends, and deep dives on particular connection history.
 
