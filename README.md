@@ -26,7 +26,10 @@ Address space 10.0.0.0/16 and 10.1.0.0/16 (two VNets were peered, for simplicity
 | Item          | Public IP     | Private IP    |
 | ------------- | ------------- | ------------- |
 | Elk VM        | 20.37.0.215   | 10.1.0.4      |
-| Web VM 1      | 10.0.0.5      | Not Exposed   |
-| Web VM 2      | 10.0.0.6      | Not Exposed   |
+| Web VM 1      | Not Exposed   | 10.0.0.5      |
+| Web VM 2      | Not Exposed   | 10.0.0.6      |
+| Jumpbox       | 52.255.57.30  | 10.0.0.4      |
+
+#### Access Policies
 
 
