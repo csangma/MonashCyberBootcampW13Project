@@ -32,4 +32,12 @@ Address space 10.0.0.0/16 and 10.1.0.0/16 (two VNets were peered, for simplicity
 
 #### Access Policies
 
+| Item          | Public        | From Private            |
+| ------------- | ------------- | ----------------------- |
+| Elk VM        | By ssh        | From Jumpbox Container  |
+| Web VM 1      | Not Exposed   | From Jumpbox Container  |
+| Web VM 2      | Not Exposed   | From Jumpbox Container  |
+| Jumpbox       | By ssh        | N/A                     |
+
+
 
